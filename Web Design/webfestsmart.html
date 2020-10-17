@@ -4,14 +4,27 @@
         <title>FestSmart</title>
     </head>
     <body bgcolor="#FCF3CF">
+        <ul>
+            <li><a href="#promo" class="active" onclick="toogle()">Promo</a></li>
+            <li><a href="#cabang_kita" onclick="toggle()">Cabang Kita</a></li>
+            <li><a href="#kontak_kami" onclick="toggle()">Kontak Kami</a></li>
+        </ul>
+
         <h1 align="center">FestSmart</h1>
         <hr size="1">
         <h3>Selamat datang di FestSmart kepuasan anda adalah prioritas kami. 
-            kami menjual barang fashion dari yang standard hingga <i>highrate</i>
+            kami menjual barang fashion dari yang standard hingga <i>highrate</i>.
+            dari berbagai macam negara fashion di sini di jamin lengkap dan juga limited
+
         </h3>
-        <img src="foto/poto.jpg" height="300px" width="500x">
-        <p>Berikut adalah beberapa promo di bulan ini : </p>
-        <table border="1" style="border-collapse: collapse;"
+        
+        <center><img src="foto/poto.jpg" height="400px" width="600x"></center>
+
+        <section id="promo">
+            <div>
+                <p><b>Promo</b></p>
+                <p>Berikut adalah beberapa promo di bulan ini : </p>
+                <table border="1" style="border-collapse: collapse;"
         cellpadding="5">
         <!--Harga di ganti Diskon-->
             <tr>
@@ -56,15 +69,31 @@
                 <td>Setiap Pembelian 5 baju + 5 Celana</td>
                 <td>Setiap anda membeli 5 baju + 5 celana akan diberikan diskon sebesar 30%</td>
             </tr>
-        </table>
-        <p>Dan Kami memiliki beberapa cabang di Indonesia :</p>
-        <ul>
-            <li><a href="jakarta.html">Jakarta</a></li>
-            <li><a href="surabaya.html">Surabaya</a></li>
-            <li><a href="yogyakarta.html">Yogyakarta</a></li>
-            <li><a href="makassar.html">Makassar</a></li>
-            <li><a href="medan.html">Medan</a></li>
-        </ul>
+                </table>
+            </div>
+        </section>
+
+        <section id="cabang_kita">
+            <div>
+                <p><b>Cabang Kami</b></p>
+                <p>Dan Kami memiliki beberapa cabang di Indonesia :</p>
+                <ul>
+                    <li><a href="jakarta.html">Jakarta</a></li>
+                    <li><a href="surabaya.html">Surabaya</a></li>
+                    <li><a href="yogyakarta.html">Yogyakarta</a></li>
+                    <li><a href="makassar.html">Makassar</a></li>
+                    <li><a href="medan.html">Medan</a></li>
+                </ul>
+            </div>
+        </section>
         
+        <section id="kontak_kami">
+            <div>
+                <h4><b>Kontak Kami</b></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas laudantium earum eligendi, 
+                    culpa ipsam explicabo officiis non delectus dolorem! Minima atque sit vitae impedit corporis! 
+                    Tenetur doloremque amet temporibus eius.</p>
+            </div>
+        </section>
     </body>
 </html>
