@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta class="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Form</title>
+    <style>
+        label{font-size: 15px;}
+        h1{font-size: 20px;}
+    </style>
+    </head>
+    <body>
+        <form action="proses.php" method="POST"></form>
+        <fieldset style="background-color: cyan;">
+        <legend style="font-size: 35px;"><b>Form Registrasi</b></legend>
+        <div align="right">
+            <label for="date">Date</label>
+            <div>
+                <input type="date" id="date" value="2020-26-10">
+            </div>
+        </div>
+        <h2>Personal Informasi</h2>
+        <hr size="3" color="black">
+        <div>
+            <label style="height: 15px; width: 300px; display: inline-block; padding: 10px;" for="nama"><b>NAMA</b></label>
+            <input style="height: 15px; width: 300px; padding: 5px;" id="nama" type="text" value="" size="30">
+        </div>
+        <div>
+            <label style="height: 15px; width: 300px; display: inline-block; padding: 10px;" for="ttl"><b>TEMPAT TANGGAL LAHIR</b></label>
+            <input style="height: 15px; width: 300px; padding: 5px;" id="ttl" type="text" value="" size="30"> 
+        </div>
+        <h2>Kontak Informasi</h2>
+        <hr size="3" color="black">
+        <div>
+            <label style="height: 15px; width: 300px; padding: 10px; display: inline-block;" for="alamat"><b>ALAMAT</b></label>
+            <input style="height: 15px; width: 300px; padding: 5px;" id="alamat" value="" type="text" size="30">
+        </div>
+        <div>
+            <label style="height: 15px; width: 300px; padding: 10px; display: inline-block;" for="kota"><b>KOTA</b></label>
+            <input style="height: 15px; width: 300px; padding: 5px;" id="kota" value="" type="text" size="30"> 
+        </div>
+        <div>
+            <label style="height: 15px; width: 300px; padding: 10px; display: inline-block;" for="provin"><b>PROVINSI</b></label>
+            <input style="height: 15px; width: 300px; padding: 5px;" id="provin" value="" type="text" size="30">
+        </div>
+        <div>
+            <label style="height: 15px; width: 300px; padding: 10px; display: inline-block;" for="ngr"><b>NEGARA</b></label>
+            <input style="height: 15px; width: 300px; padding: 5px;" id="ngr" value="" type="text" size="30">
+        </div>
+        <div>
+            <label style="height: 15px; width: 300px; padding: 10px; display: inline-block;" for="code"><b>ZIP CODE</b></label>
+            <input style="height: 15px; width: 300px; padding: 5px;" id="code" value="" type="text" size="30">
+        </div>
+        <div>
+            <label style="height: 15px; width: 300px; padding: 10px; display: inline-block;" for="phone"><b>PHONE</b></label>
+            <input style="height: 15px; width: 300px; padding: 5px;" id="phone" value="" type="text" size="30">
+        </div>
+        <div>
+            <label style="height: 15px; width: 300px; padding: 10px; display: inline-block;" for="email"><b>EMAIL</b></label>
+            <input style="height: 15px; width: 300px; padding: 5px;" id="email" value="" type="text" size="30">
+        </div>
+        <div>
+            <label style="height: 15px; width: 293px; padding: 10px; display: inline-block;" ><b>TIPE MEMBERSHIP</b></label>
+            <input style="height: 15px; width: 20px; padding: 5px;" value="reguler" type="radio" size="30" />Regular
+            <input style="height: 15px; width: 20px; padding: 5px;" value="premium" type="radio" size="30" />Premium
+            <input style="height: 15px; width: 20px; padding: 5px;" value="vip" type="radio" size="30" />VIP
+        </div>
+        <h2>Informasi Kursus</h2>
+        <hr size="3" color="black">
+        <div>
+            <label style="height: 15px; width: 300px; display: inline-block; padding: 10px;" for="nama_kursus"><b>NAMA KURSUS</b></label>
+            <input style="height: 15px; width: 300px; padding: 5px;" id="nama_kursus" type="text" value="" size="30">
+        </div>
+        <div>
+            <label style="height: 15px; width: 293px; padding: 10px; display: inline-block;" ><b>RINCIAN PEMBAYARAN</b></label>
+            <input style="height: 15px; width: 20px; padding: 5px;" value="reguler" type="radio" size="30" />Cash
+            <input style="height: 15px; width: 20px; padding: 5px;" value="premium" type="radio" size="30" />Cheque
+            <input style="height: 15px; width: 20px; padding: 5px;" value="vip" type="radio" size="30" />Credit Card
+        </div>
+        <div>
+            <label style="height: 15px; width: 300px; display: inline-block; padding: 10px;" for="komen"><b>KOMENTAR</b></label>
+            <input style="height: 15px; width: 300px; padding: 5px;" id="komen" type="text" value="" size="30">
+        </div>
+        <div>
+            <input type="submit" name="submit" value="submit"/>
+        </div>
+        </fieldset>
+    </body>
+</html>
