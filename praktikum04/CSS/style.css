@@ -55,7 +55,7 @@ html,body{
     align-items: center;
     padding: 0 10vw 0 10vw;
     height: 100vh;
-    background-image: url(/img/bg3.png);
+    background-image: url(/praktikum04/img/bg3.png);
 }
 
 .landingText h1{
