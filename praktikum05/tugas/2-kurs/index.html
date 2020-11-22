@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        form{
+            display: inline-block;
+        }
+        fieldset{
+            border: 2px solid black!important;
+            background-color: #F0FFFF;
+        }
+        table {
+            border: 2px solid black!important;
+        }
+        table,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 3px;
+            margin: 2px;
+        }
+        th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 3px;
+            margin: 2px;
+            background-color: lightblue; 
+        }
+
+        input, select {
+            text-align: right;
+            padding: 5px;
+        }
+        select{
+            text-align: center!important;
+        }
+    </style>
+    <script src="main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs Mata Uang</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Kurs Mata Uang Rupiah</legend>
+            <table>
+                <tr>
+                    <th>Masukan Nilai</th>
+                    <th>Valas</th>
+                    <th>Nilai Rupiah</th>
+                </tr>
+                <tr>
+                    <td><input id="input_nilai" placeholder="Masukan Jumlah Uang Anda" type="text"></td>
+                    <td><select id="valas" onclick="kurs()" id="changekurs">
+                            <option value="Dollar_U">Dollar US</option>
+                            <option value="Dollar_S">Dollar Singapore</option>
+                            <option value="Ringgit_M">Ringgit Malaysia</option>
+                            <option value="Yen_J">Yen Jepang</option>
+                            <option value="Euro">Euro</option>
+                            <option value="Riyal_AS">Riyal Arab Saudi</option>
+                        </select></td>
+                    <td><input id="hasil_nilai" readonly value="0" type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

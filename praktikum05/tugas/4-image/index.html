@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+    <style>
+        img{
+            height: auto;
+            width: auto;
+        }
+        form{
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Pilih Hewan Anda</h2>
+    <form action="">
+        <select name="animal" id="binatang" onchange="hewan()">
+            <option value="" >Pilih salah satu</option>
+            <option value="anjing" >Anjing</option>
+            <option value="burung_hantu">Burung Hantu</option>
+            <option value="kucing">Kucing</option>
+            <option value="jerapah">Jerapah</option>
+            <option value="angsa">Angsa</option>
+        </select>
+    </form>
+    <div id="foto"></div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

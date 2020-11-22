@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        section{
+            width: 500px;
+            height: 505px;
+            border: 1px solid black;
+            
+            
+        }
+        .container-chat{
+            margin-bottom: 2px;
+            width: 100%;
+            height: 470px;
+            overflow: auto;
+
+        }
+        .container-chat p {
+            padding: 0;
+            margin: 5px;
+        }
+        #output-chat{
+            margin: 2px 2px;
+            padding: 2px;
+            
+        }
+        .input-chat{
+            width: 100%;
+            padding: 1px;
+            box-sizing: border-box;
+        }
+        input{
+            width:80%;
+            height: 50%;
+            margin-left: 10px;
+        }
+        button{
+            width: 14%;
+        }
+    </style>
+    <script src="main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+</head>
+<body>
+    <section>
+        <div class="container-chat" id="container-chat">
+        </div>
+        <div class="input-chat">
+            <input type="text" id="textchat" value=""/><button onclick="kirim()" id="kirim">kirim</button>
+        </div>
+    </section>
+</body>
+</html>
